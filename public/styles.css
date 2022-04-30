@@ -1,0 +1,39 @@
+h1,
+p {
+  color: red;
+  margin: 8px;
+}
+
+.header {
+  /* position: sticky; */
+  --main-padding: 30px;
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: baseline;
+
+  top: 0;
+  left: 0;
+  padding: var(--main-padding);
+
+  width: calc(100% - var(--main-padding) * 2-10px);
+  height: 100px;
+  background-color: cyan;
+  color: aquamarine;
+  border: 10px solid aquamarine;
+
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.headeritems{
+padding: 10px;
+margin: 75px;
+border: 10px double brown;
+color:rgb(0, 255, 0);
+font-size: large;
+background-color: darkviolet;
+}
