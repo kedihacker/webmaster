@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "webrtc-adapter": "^8.1.1"
+  }
+}

@@ -1,0 +1,46 @@
+.linkbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+
+  padding: 10px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+}
+.linkbarcolor {
+  color: antiquewhite;
+  background-color: firebrick;
+  padding: 10px;
+}
+.linkbarelentpos {
+  margin: 10px;
+  text-align: center;
+}
+.mainbody {
+  padding: 8px;
+  background-color: beige;
+  display: flex;
+  flex-direction: row;
+}
+body {
+  margin: 0;
+  padding: 0;
+  counter-reset: meow;
+}
+.mainbodyelement {
+  flex: 1;
+  margin: 10px;
+  padding: 0px;
+}
+.videoelement {
+  aspect-ratio: var(--width);
+  /* make video elemnt not expand on top and bottom
+ */
+  --width: 100%;
+
+  width: calc(var(--width) - 20px);
+  background-color: black;
+  
+}
