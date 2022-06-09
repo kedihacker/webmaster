@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Noto sans";
+  src: url(notosans/NotoSans-Regular.ttf) format("truetype");
+    format("truetype");
+}
+
 @media only screen and (max-width: 600px) {
   .chatmaincontainer {
     width: 100%;
@@ -17,9 +23,9 @@
   height: calc(100% - var(--bottom-size));
   width: 100%;
   overflow-y: auto;
+  overflow-x: auto;
   display: flex;
   flex-direction: column;
-  scroll-;
 }
 
 .bottomeddit {
@@ -27,6 +33,7 @@
   position: relative;
   bottom: 0;
 }
+
 .editbox {
   resize: none;
   height: calc(100%);
@@ -35,6 +42,8 @@
 }
 
 .chat {
+  font-family: Noto sans;
+
   padding: 5px;
   height: fit-content;
   width: calc(100% - 20px);
@@ -44,7 +53,7 @@
 
 .sent {
   background-color: lightblue;
-  padding: 5px;
+  padding: 6px;
 }
 .recived {
   background-color: lightgreen;
